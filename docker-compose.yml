@@ -1,0 +1,9 @@
+version: '3'
+services:
+  portifolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portifolio-container
+    ports:
+      - "1000:80"

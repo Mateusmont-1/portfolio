@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico">
+
+    <title>Mateus Monteiro │ Desenvolvedor</title>
+    <meta name="description" content="Mateus Monteiro: Página para apresentar projetos desenvolvidos.">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+        integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    
+</head>
+
+<body>
+
+    <div class="loader"></div>
+
+    <header id="header" class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href="index.html">Mateus Monteiro <span class="destaque">│Dev.</span></a>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="menu-navegacao">
+                <i class="fa-solid fa-times close-icon"></i>
+                <ul class="lista-navegacao">
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="about.html">SOBRE</a></li>
+                    <li><a href="projects.html">PROJETOS</a></li>
+                    <li><a href="contact.html">CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--End HEADER-->
+
+    <!--Start Section Contact-->
+    <section id="contact" class="contact">
+        <div class="container-contact">
+            <div class="headline" data-aos="fade-up" data-aos-delay="100">
+                <span class="destaque">Vamos conversar</span>
+                <h1>Entre em Contato</h1>
+            </div>
+            <div class="content-contact">
+                <div class="left-contact" data-aos="fade-right" data-aos-delay="200">
+                    <div class="text-contact">
+                        <h1>Interessado em colaborar em projetos de desenvolvimento back-end?</h1>
+                        <p>Estou começando no mercado de TI como desenvolvedor BackEnd e estou à procura de oportunidades para aplicar e expandir meus conhecimentos. Se você tem um projeto ou precisa de um desenvolvedor back-end dedicado, entre em contato para discutirmos como posso contribuir.</p>
+                    </div>
+                    <div class="list-contact">
+                        <span class="destaque">Contate-me</span>
+                        <div class="container-list">
+                            <ul>
+                                <li><i class="fa-solid fa-envelope"></i> Email: mateus.monteiro112@gmail.com</li>
+                                <li><i class="fa-solid fa-map-marker-alt"></i> Localização: Grande ABC, São Paulo - Brasil</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="redes-sociais-contato">
+                        <span class="destaque">Redes Sociais:</span>
+                        <a href="https://github.com/Mateusmont-1" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/-mateusmont/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_mateusmont/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+    
+                <div class="right-contact" data-aos="fade-left" data-aos-delay="300">
+                    <h2>Envie sua mensagem</h2>
+                    <form id="contact-form">
+                        <label for="name">Nome*</label>
+                        <input type="text" name="user_name" id="name" required>
+    
+                        <label for="whatsapp">WhatsApp*</label>
+                        <input type="tel" name="user_phone" id="whatsapp" required>
+    
+                        <label for="email">E-mail*</label>
+                        <input type="email" name="user_email" id="email" required>
+    
+                        <label for="company">Empresa (Opcional)</label>
+                        <input type="text" name="subject" id="company">
+    
+                        <label for="message">Mensagem*</label>
+                        <textarea rows="5" name="message" id="message" required placeholder="Escreva sua mensagem ..."></textarea>
+    
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                        <p id="form-success" class="success-message">Sua mensagem foi enviada com sucesso!</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Section Contact-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>Todos os direitos reservados<br />Desenvolvido <span class="destaque">Mateus Monteiro│Dev.</span></p>
+    </footer>
+    <!--End Footer-->
+
+    <!--Scripts-->
+    <script src="/assets/js/menu.js"></script>
+    <script src="assets/js/emailForm.js"></script>
+    <script src="/assets/js/headerAnimation.js"></script>
+    <script src="/assets/js/scrollAnimation.js"></script>
+    <script src="/assets/js/imageScroll.js"></script>
+    <script src="assets/js/changePagesAnimation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        AOS.init();
+
+        // Máscara para o campo WhatsApp
+        document.getElementById('whatsapp').addEventListener('input', function (e) {
+            let value = e.target.value.replace(/\D/g, '');
+            value = value.replace(/^(\d{2})(\d{5})(\d{4}).*/, '($1) $2-$3');
+            e.target.value = value;
+        });
+    </script>
+
+</body>
+
+</html>

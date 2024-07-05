@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico">
+
+    <title>Mateus Monteiro │ Desenvolvedor</title>
+    <meta name="description"
+        content="Mateus Monteiro: Pagina para apresentar projetos desenvolvidos.">
+
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+        integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    
+</head>
+
+<body>
+
+    <div class="loader"></div>
+
+    <header id="header" class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href="index.html">Mateus Monteiro <span class="destaque">│Dev.</span></a>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="menu-navegacao">
+                <i class="fa-solid fa-times close-icon"></i>
+                <ul class="lista-navegacao">
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="about.html">SOBRE</a></li>
+                    <li><a href="projects.html">PROJETOS</a></li>
+                    <li><a href="contact.html">CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--End HEADER-->
+
+    <!--Start Section Projects-->
+    <section id="projects" class="projects">
+        <div class="container-projects">
+
+            <div class="headline" data-aos="fade-up" data-aos-delay="100">
+                <span class="destaque">Veja soluções reais</span>
+                <h1>Alguns projetos</h1>
+            </div>
+
+            <div class="content-projects">
+                <div class="cards-projects">
+
+                    <!--Card Projeto 1-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="150">
+                        <div class="img-project">
+                            <img src="assets/image/landing-page-easyscheduling.png" alt="Landing EasyScheduling">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>EasyScheduling</h2>
+                                <span>Landing Page</span>
+                                <p>Página de captação de clientes que apresenta os recursos e vantagens do sistema de agendamento EasyScheduling. Interface intuitiva e informações detalhadas para atrair e converter visitantes em usuários.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://www.easyscheduling.com.br/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 1-->
+
+                    <!--Card Projeto 2-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="img-project">
+                            <img src="assets/image/sistema-web-easyscheduling.png" alt="Sistema EasyScheduling">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>EasyScheduling</h2>
+                                <span>Sistema Web</span>
+                                <p>Uma solução completa para gestão de agendamentos e controle de negócios, desenvolvido com foco em eficiência e usabilidade. Confira os detalhes técnicos no GitHub.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://www.easyscheduling.com.br/sistema_exemplo" target="_blank">Acesse o sistema</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 2-->
+
+                    <!--Card Projeto 3-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="250">
+                        <div class="img-project">
+                            <img src="assets/image/chute-certeiro.png" alt="Quiz Chute Certeiro">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Chute Certeiro</h2>
+                                <span>Quiz</span>
+                                <p>Um jogo de perguntas e respostas desenvolvido para testar seus conhecimentos referente a futebol. Com uma interface amigável e dinâmica, o quiz é uma excelente forma de entretenimento e aprendizado.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://github.com/Mateusmont-1/quiz_chute_certeiro" target="_blank">Acesse o código no GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 3-->
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--End Section Projects-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>Todos os direitos reservados<br />Desenvolvido <span class="destaque">Mateus Monteiro│Dev.</span></p>
+    </footer>
+    <!--End Footer-->
+
+    <!--Scripts-->
+    <script src="/assets/js/imageScroll.js"></script>
+    <script src="/assets/js/menu.js"></script>
+    <script src="/assets/js/headerAnimation.js"></script>
+    <script src="/assets/js/textAnimation.js"></script>
+    <script src="/assets/js/particles.js"></script>
+    <script src="assets/js/changePagesAnimation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
