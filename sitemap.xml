@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://dev-mateusmonteiro.site/</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://dev-mateusmonteiro.site/about.html</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dev-mateusmonteiro.site/contact.html</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dev-mateusmonteiro.site/projects.html</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dev-mateusmonteiro.site/quiz-futebol/</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>
